@@ -20,6 +20,8 @@ while True:
             E -= 1
     elif upg == "4.3":
         while True:
+            print("Välj ett av följande alternativ.")
+            print("1. Omvandla meter till kilometer")
             print("2. Omvandla kilometer till meter")
             print("3. Avsluta programmet")
             val = str(input("Svar: "))
